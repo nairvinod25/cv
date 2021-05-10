@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <h2>Vinod's contact details</h2> 
+    <ul>
+        <li>Cell: 999</li>
+        <li>Email: <a href="mailto:vinodkumar.nair@gmail.com">vinodkumar.nair@gmail.com</a></li>
+    </ul>
+    <hr>
+    <form action="mailto:info@myemail.com" method="POST">
+        <h3>Leave a message for me</h3>
+        <label for="your_name">Enter name:</label>
+        <input type="text" id="your_name" name="your_name" value="Your name"><br>
+        <label for="your_email">Enter email:</label>
+        <input type="email" id="your_email" name="your_email" value="your_email@domain.com"><br>
+        <label for="your_comments">Your comments:</label><br>
+        <textarea id="your_comments" rows=10 cols="40">Enter your comments here...</textarea><br>
+        <input type="submit" value="Send Info" autofocus>
+    </form>
+</body>
+</html>
